@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android_custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightgray"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/registerSecond_sendMessageTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/sendmessage"
+        android:textColor="@color/darkgray"
+        android:textSize="12sp"
+        android:visibility="invisible" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="8dp"
+        android:background="@color/gray_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal">
+
+            <com.zpjr.cunguan.common.views.ClearEditText
+                android:id="@+id/registerSecond_imageCodeClet"
+                style="@style/edit_text"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="5"
+                android:drawableLeft="@mipmap/code"
+                android:hint="@string/regesiter_user_imagecode"
+                android:imeOptions="actionNext"
+                android:maxLength="6" />
+
+            <com.zpjr.cunguan.common.views.TextImageButton
+                android:id="@+id/registerSecond_tibCodeTvImgBtn"
+                android:layout_width="0dp"
+                android:layout_height="38dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="10dp"
+                android:layout_weight="2"
+                android:background="@drawable/btn_image_captcha_selector"
+                android_custom:ibText="获取图形码"
+                android_custom:ibTextColor="@color/white"
+                android_custom:ibTextSize="60sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="10dp"
+            android:background="@color/gray_line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal">
+
+            <com.zpjr.cunguan.common.views.ClearEditText
+                android:id="@+id/registerSecond_codeClet"
+                style="@style/edit_text"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="5"
+                android:drawableLeft="@mipmap/code"
+                android:hint="@string/regesiter_user_code"
+                android:inputType="numberSigned"
+                android:maxLength="6" />
+
+            <Button
+                android:id="@+id/registerSecond_getCodeBtn"
+                android:layout_width="0dp"
+                android:layout_height="38dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="2"
+                android:background="@drawable/btn_sms_captcha_selector"
+                android:text="@string/regesiter_getcode"
+                android:textColor="@drawable/color_basecolor_white"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="10dp"
+            android:background="@color/gray_line" />
+
+        <com.zpjr.cunguan.common.views.ClearEditText
+            android:id="@+id/registerSecond_pwdClet"
+            style="@style/edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:digits="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLIMNOPQRSTUVWXYZ"
+            android:drawableLeft="@mipmap/password"
+            android:hint="@string/regesiter_user_hintpwd"
+            android:imeOptions="actionDone"
+            android:inputType="textPassword" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="10dp"
+            android:background="@color/gray_line" />
+
+        <com.zpjr.cunguan.common.views.ClearEditText
+            android:id="@+id/registerSecond_referralPhoneClet"
+            style="@style/edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:drawableLeft="@mipmap/key"
+            android:hint="@string/regesiter_user_hintreferral"
+            android:imeOptions="actionDone" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/gray_line" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:id="@+id/iv_tag"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:src="@mipmap/tag" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/iv_tag"
+                android:gravity="center_vertical"
+                android:text="中平金融不会在任何场合泄漏你的信息"
+                android:textColor="@color/gray"
+                android:textSize="15sp" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/registerSecond_registerBtn"
+        style="@style/margin_style"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_blue"
+        android:onClick="gotoRegister"
+        android:text="@string/regesiter"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <CheckBox
+            android:id="@+id/registerSecond_agreeCb"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="@drawable/checkbox_selector"
+            android:button="@null"
+            android:checked="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:text="我已阅读并同意"
+            android:textColor="@color/lightblack"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/registerSecond_agreeTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:text="《用户注册协议》"
+            android:textColor="@color/basecolor"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</LinearLayout>

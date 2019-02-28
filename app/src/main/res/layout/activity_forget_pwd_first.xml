@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/gray_line" />
+
+        <com.zpjr.cunguan.common.views.ClearEditText
+            android:id="@+id/forgetPwdForst_phoneClet"
+            style="@style/edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:digits="1234567890"
+            android:drawableLeft="@mipmap/username"
+            android:hint="@string/regesiter_user_mobile"
+            android:imeOptions="actionNext"
+            android:inputType="phone" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="10dp"
+            android:background="@color/gray_line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal" >
+
+            <com.zpjr.cunguan.common.views.ClearEditText
+                android:id="@+id/forgetPwdForst_smsCodeClet"
+                style="@style/edit_text"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="5"
+                android:drawableLeft="@mipmap/code"
+                android:hint="@string/sms_check"
+                android:imeOptions="actionDone"
+                android:maxLength="6" />
+
+            <Button
+                android:id="@+id/forgetPwdForst_getCodeBtn"
+                android:layout_width="0dp"
+                android:layout_height="38dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="2"
+                android:background="@drawable/btn_sms_captcha_selector"
+                android:text="@string/regesiter_getcode"
+                android:textColor="@drawable/color_basecolor_white"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/gray_line" />
+
+    <Button
+        android:id="@+id/forgetPwdForst_nextBtn"
+        style="@style/orange_button"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/next_step" />
+
+</LinearLayout>

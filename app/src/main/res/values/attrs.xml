@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--WDTabIndicator的参数设置-->
+    <declare-styleable name="PagerSlidingTab">
+        <attr name="indicatorColor" format="color" />
+        <attr name="underlineColor" format="color" />
+        <attr name="dividerColor" format="color" />
+        <attr name="indicatorHeight" format="dimension" />
+        <attr name="underlineHeight" format="dimension" />
+        <attr name="pst_dividerPadding" format="dimension" />
+        <attr name="tabPaddingLeftRight" format="dimension" />
+        <attr name="scrollOffset" format="dimension" />
+        <attr name="tabBackgrounds" format="reference" />
+        <attr name="sameLine" format="boolean" />
+        <attr name="pst_textAllCaps" format="boolean" />
+    </declare-styleable>
+
+    <!--加载框属性定义-->
+    <declare-styleable name="LoadingView">
+        <attr name="loadingText" format="string|reference"/>
+        <attr name="loadingTextAppearance" format="reference"/>
+        <attr name="delay" format="integer|reference"/>
+    </declare-styleable>
+
+    <!--手势解锁view属性定义-->
+    <declare-styleable name="GestureLock">
+        <attr name="line_width" format="dimension"/>
+        <attr name="line_normal_color" format="color"/>
+        <attr name="line_error_color" format="color" />
+    </declare-styleable>
+
+    <!--手势解锁预览view属性定义-->
+    <declare-styleable name="GesturePreView">
+        <attr name="normal" format="integer" />
+        <attr name="selected" format="integer" />
+    </declare-styleable>
+
+    <!--验证码控件view属性定义-->
+    <declare-styleable name="TextImageButton">
+        <attr name="ibTextSize" format="reference|dimension"></attr>
+        <attr name="ibText" format="reference|string"></attr>
+        <attr name="ibTextColor" format="reference|color"></attr>
+    </declare-styleable>
+</resources>

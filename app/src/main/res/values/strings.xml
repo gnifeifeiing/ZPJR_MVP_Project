@@ -1,0 +1,252 @@
+<resources>
+    <string name="app_name">中平金融</string>
+    <string name="return_back">返回</string>
+    <string name="loading_text">加载中...</string>
+
+    <!--我的-->
+    <string name="productlist">理财产品</string>
+    <string name="set">设置</string>
+    <string name="title_productdetail">项目详情</string>
+    <string name="myinvest">我的投资</string>
+    <string name="regist_first_title">手机号验证</string>
+    <string name="regist_second_title">注册</string>
+    <string name="commit_touzi">投资确认</string>
+    <string name="btn_touzi">确定投资</string>
+    <string name="forgetpwd">忘记密码</string>
+    <string name="forgetgesture">忘记手势密码</string>
+    <string name="recharge_introduce">充值说明</string>
+    <string name="recharge_log">充值提现记录</string>
+    <string name="orderdetail">订单性情</string>
+    <string name="myinvite">我的推荐</string>
+    <string name="invite">推荐亲属</string>
+    <string name="mypackage">我的奖券</string>
+    <string name="reset_pwd">重置密码</string>
+    <string name="reset_pwd_finish">完成重置设置</string>
+    <string name="notification">提醒</string>
+    <string name="messagecenter">消息中心</string>
+    <string name="myaccount">个人中心</string>
+    <string name="invitation">邀请好友</string>
+    <string name="myintegral">我的积分</string>
+
+    <!--登陆界面-->
+    <string name="login_regedit">立即注册</string>
+    <string name="login_account">请输入用户名/手机号码登录</string>
+    <string name="login_password">请输入登录密码</string>
+    <string name="login_password_forget">忘记密码？</string>
+    <string name="login_account_label">账号</string>
+    <string name="login_password_label">密码</string>
+    <string name="login_password_code">验证</string>
+    <string name="login_register">免费注册</string>
+    <string name="login_findpassword">找回密码</string>
+    <string name="login_user_hintname">请输入手机号</string>
+    <string name="login_user_hintpwd">请输入登录密码</string>
+    <string name="login_user_hintcode">请输入验证码</string>
+    <string name="login">登录</string>
+    <string name="regesiter">注册</string>
+    <string name="regesiter_user_hintname">请填写手机号码</string>
+    <string name="regesiter_phonewrongtype">手机号码格式错误</string>
+    <string name="regesiter_user_hintoldpwd">请输入原登录密码</string>
+    <string name="regesiter_user_hintpwd">请填写不少于6位登录密码</string>
+    <string name="regesiter_user_tradpwd">请填写不少于6位交易密码</string>
+    <string name="regesiter_user_tradcommitpwd">请确认交易密码</string>
+    <string name="regesiter_user_hintpwd_new">请输入6-16位数字、字母的新密码</string>
+    <string name="regesiter_user_hintreferral">请输入推荐码或手机号（可不填）</string>
+    <string name="regesiter_user_hintcommitpwd">请确认登录密码</string>
+    <string name="regesiter_user_mobile">请输入手机号码</string>
+    <string name="regesiter_user_code">请输入验证码</string>
+    <string name="regesiter_user_imagecode">请输入图形码</string>
+    <string name="regesiter_getcode">获取验证码</string>
+    <string name="next_step">下一步</string>
+    <string name="sure_change">确定修改</string>
+    <string name="regist_gesture">请绘制手势密码</string>
+    <string name="regist_gesture_repeat">请再次绘制手势密码</string>
+    <string name="regist_gesture_false">两次手势密码不一致，请再次绘制</string>
+    <string name="repeat_draw">重新绘制</string>
+    <string name="gesture_tip">您必须设置手势密码，以保证您的隐私信息</string>
+    <string name="regesiter_officecode">请输入您的企业验证码</string>
+    <string name="regesiter_username">请输入用户名</string>
+    <string name="regesiter_yaoqing">邀请码（选填）</string>
+    <string name="regesiter_nextgetcode">下一步，获取验证码</string>
+    <string name="hint_imagecode">请输入右侧验证码</string>
+    <string name="sendmessage">短信已发送至%1$s</string>
+    <string name="regesiter_success">恭喜，注册成功</string>
+    <string name="last_step">仅最后一步，请完成实名认证</string>
+    <string name="register_hint_pwd">请输入6-16位密码</string>
+
+    <!-- 找回密码 -->
+    <string name="sms_check">请输入短信验证码</string>
+    <string name="new_pwd">新密码设置</string>
+    <string name="tradepwd_user_hintpwd">请填写不少于6位交易密码</string>
+    <string name="tradepwd_user_hintcommitpwd">请确认交易密码</string>
+
+    <!-- 倒计时 -->
+    <string name="hour">小时</string>
+    <string name="minute">分</string>
+    <string name="second">秒</string>
+
+    <!--底部导航栏-->
+    <string name="menu_main">首页</string>
+    <string name="menu_investment">投资</string>
+    <string name="menu_my">我的</string>
+    <string name="menu_setting">设置</string>
+
+    <!--投资导航栏目-->
+    <array name="product_list_titles">
+        <item>短期速盈</item>
+        <item>中期易盈</item>
+        <item>长期稳盈</item>
+    </array>
+
+    <!--产品列表-->
+    <string name="product_limit">%1$d</string>
+    <string name="product_limit_day">%1$d</string>
+    <string name="product_floating_day">%1$s-%2$d</string>
+    <string name="product_canpayprice">可投金额 %1$s元</string>
+    <string name="qita">计划</string>
+
+    <!-- 产品概述 -->
+    <string name="descrip_schema">理财金额%1$s元起\n理财期限%2$s天</string>
+    <string name="schedule">进度</string>
+    <string name="expect_rate">预期\n年化收益</string>
+    <string name="write_intrest">计息期</string>
+    <string name="last_invest">剩余可投金额</string>
+    <string name="loan_total_price">标的金额 %1$s</string>
+    <string name="tothecount">本息到账日</string>
+    <string name="descriplimit">期限</string>
+    <string name="distribute">本息分配方式</string>
+    <string name="nowtouzi">立即投资</string>
+    <string name="projectdetail">项目详情</string>
+    <string name="check_product_agree">查看产品协议</string>
+    <string name="displaydetail">详情显示  ></string>
+    <string name="input_touziprice">输入投资金额\u0020\u0020\u0020\u0020\u0020\u0020\u0020 元</string>
+    <string name="double_integer">00</string>
+    <string name="day">天</string>
+
+    <!-- 产品详情 -->
+    <string name="product_limit_yue">%1$d</string>
+    <string name="product_limit_tian">%1$d</string>
+    <string name="label_detail_caninvest">标的总额（%1$s起投）</string>
+    <string name="label_withrate">年化收益率</string>
+    <string name="label_investcount">参投记录</string>
+    <string name="label_productinfo">项目信息</string>
+    <string name="haveinvestcount">已有%1$s人参投</string>
+    <string name="rightnowinvest">立即投资</string>
+    <string name="label_invest_amount">投资金额</string>
+    <string name="label_invest_profit">投资预期收益</string>
+    <string name="label_invest_repayment_method">投资偿还方式</string>
+    <string name="label_invest_time">投标时间</string>
+    <string name="label_invest_status">投资状态</string>
+    <string name="label_electric_contract">投资合同</string>
+    <string name="label_productname">产品名称</string>
+    <string name="label_expectwithrate">预期年化收益率</string>
+    <string name="label_product_total">产品总额</string>
+    <string name="label_distribute_method">收益分配方式</string>
+    <string name="label_invest_limit">投资期限</string>
+    <string name="label_invest_start">起息日</string>
+    <string name="label_expect_getmoney">预计到账</string>
+    <string name="productdescrip">产品详情</string>
+    <string name="safetip">风险提示</string>
+    <string name="productdetail">项目详情</string>
+    <string name="safeguard">安全优势</string>
+    <string name="font_percent">%1$.1f</string>
+    <string name="fellowsay_top">%1$d楼  %2$s</string>
+    <string name="fellowsay_comefrom">来自  %1$s</string>
+    <string name="fellowsay_hinttext">我想说...</string>
+    <string name="label_invests_record">参投记录</string>
+    <string name="label_project_info">项目信息</string>
+    <string name="text_risk_control">风控信息</string>
+    <string name="text_certification">认证审核</string>
+
+    <!-- 产品列表新布局 -->
+    <string name="product_limit_new">%1$d个月</string>
+    <string name="product_limit_day_new">%1$d天</string>
+    <string name="product_floating_day_new">%1$s-%2$d天</string>
+    <string name="title_activity_register_second">Sign in</string>
+
+    <!-- 设置 -->
+    <string name="more_person">个人中心</string>
+    <string name="more_integral">我的积分</string>
+    <string name="more_rebate">积分返利</string>
+    <string name="more_help">帮助中心</string>
+    <string name="more_yaoqing">邀请好友</string>
+    <string name="more_weixin">微信分享</string>
+    <string name="more_about">关于我们</string>
+    <string name="more_service">联系客服</string>
+    <string name="more_opinion">意见反馈</string>
+    <string name="more_checkupdate">当前版本</string>
+    <string name="app_logo_text">版权所有&#169;中平瑞发（上海）互联网金融信息服务有限公司</string>
+    <string name="more_checkupdating">正在检查最新版本</string>
+    <string name="more_updating">正在下载最新版本</string>
+    <string name="more_checkupdated">当前为最新版本</string>
+    <string name="telphone">400-680-8686</string>
+    <string name="more_platform">平台简介</string>
+    <string name="more_aboutus">关于我们</string>
+    <string name="more_evaluation">评价一下</string>
+    <string name="more_protocol">软件许可及服务协议</string>
+    <string name="aboutApp">关于中平金融</string>
+    <string name="product_introduce">产品介绍</string>
+    <string name="risk_control">风控安全</string>
+    <string name="register_login">注册/登录</string>
+    <string name="upload_withdraw">充值/提现</string>
+    <string name="member_integral">会员/积分</string>
+    <string name="investment_financing">投资理财</string>
+    <string name="terminology">名词解释</string>
+    <string name="law_safety">法律安全</string>
+    <string name="logout">退出登录</string>
+
+    <!-- 实名认证 -->
+    <string name="hint_name">请输入姓名</string>
+    <string name="hint_client_name">请输入客户姓名</string>
+    <string name="hint_idnumber">请输入身份证号</string>
+    <string name="hint_client_idnumber">请输入证件号码</string>
+    <string name="label_auth">实名认证</string>
+    <string name="text_auth">已认证</string>
+    <string name="text_auth_open">已开通</string>
+    <string name="text_not_auth">未认证</string>
+    <string name="text_not_auth_open">未开通</string>
+    <string name="text_not_login">未登录</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <!-- 我的账户 -->
+    <string name="text_pwdmanager">密码管理</string>
+    <string name="old_bank_phonenumber">请输入银行原预留手机号</string>
+    <string name="new_bank_phonenumber">请输入银行新预留手机号</string>
+    <!--解绑手机卡-->
+    <string name="unbind_my_card">确定解绑</string>
+    <string name="change_my_bankphone">确认更换</string>
+    <string name="ali_rsa">MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDQjbbTzFcpPZK2kZDVsd3VQtbHgIWp3+dDSF0mUtclk2sAwq9uVL3FVaazCs5lgemuWZuSr7yys3AcVNG1S0/0W2QI/sHmYZ5yLn5ytQC2pmRgWz2eiOBQog0OvVSlyRVt1L3YBvtQrFZlwasWMT3qs9H39oxQDf4MpZUVVDL7omTBt6sHkjdqURicbLpl3yKl7GUEpOQNa1+cyzvHLAvfo+6AhOMnfx9D30H/eABp0+Tpjl6XIN58A6NGpM4nlbym96biYGb/y0GlW/9wOd1cHxkaxtFOjk0oQVU4KYZsYyTV461xk9CiDQtE2nhtTrP5j/bTyF4Xwja4OWPS39ixAgMBAAECggEBAIfS47FIsbNgMH7KiuNBtdHAeBTyNRsPgZQmOtRMu2Xzfoq+QHbApd8xCyIr9YPSehhcr5926JQRnQA2lWVXKTlhk+Lv1+Rsyz5d3WhjTZWnBFRk19q6Fi0tfQeOcuSN83DWTtW0plRCCPq4iO4pH8QNXL/7SCKTGlOuO0vqzFFoodTXPytzpaHw8/aGgBmohKjUB39qou50cQPZBy8VKbHAXJILpwC+LZNICTTRnfvYMNB9x6/crtH79VXpKXh3cLjl0V4Oi6nMgjgpuNNev2QTgO8W+DOrNvDpzMixelelUbHdsbLmFi8x0Yj6q038M7cA2dtIgxRfZg2aAzdMBkkCgYEA+86wb/7rRYjkOwN4SQ1jWi8cEmba1hEkv2NLxVMaXRPpstRdo0mtsnBj2SujR+RLW23BaR6qDiUi0AM2j47WG3/lZAjoOIn3sQpCHW34pQwS4amvmiZm+aQnA+zLRq0ptNVpbbCkp+FK2wuIR4ZiMcoOQkHP0afwDRa8TcaluRsCgYEA1Aaooe26mWoyU8Un/AbfhnrQ8c1vcvh6HVNurK9r8hkfkhxoWxUTO0ZwaBENT8dK7FkU3ziAOfIGmo+BGv7l/A3OH8A4FAUKu6FgDTwWqqy1hIXChKUqCJoojunOPx3P+bF6Q34kvMi5QltKp/F+uc1nC7fTu0x0bP4bYFdZPiMCgYEA+3QygxSYk06ZQ0k6xBCnhzaGHOYzYBOsk6av0rQjHpG1DQy/GUGJQCi1vPezzSXwDrQysSua/BcfhYO/52nm630zcErowxUbkOLClSrtYrwE2u6dWh1BNcgz4dqEP+bKQDfhWVVNiAwVuVnx1CMhScERrh6UTjQbJqbukehuM8MCgYBiS5/8Skk6/JfObFXIKquQHfomT9Z+V6HNXLOvjTgfKfSP+WmL6G5dCZ/tLxKbzMn4XqglgH053/Gd0C/Lgya+PuwznhqhdWDvcbYlDJl5kM4qXRS8CBI/oLBy6QP8EOctXFFRXvbLKsdwcwBeccANhaNjNFsNtzk2mmu4s2YlPwKBgBrOBOQS1MBLAJ1eBOP3NgHMyXuAvBhyhmwIgVGOzcQ1hFFYs2rRa/IvSZOsaEa0sXagKAYn5ASUOc2bDny1r+l10FXiejoulSrT7yxX7U1h1KqoSbhroDX2znkK14BNCh/41YKbag7J9yT9LXETmLzWvC0BgUqND2M1hwuODk2q</string>
+
+    <!-- 绑定银行卡 -->
+    <string name="label_name">用户姓名</string>
+    <string name="label_idnumber">身份证</string>
+    <string name="label_bankinfo">银行卡信息</string>
+    <string name="label_cardnumber">卡号</string>
+    <string name="new_cardid">新卡号</string>
+    <string name="label_bank">银行</string>
+    <string name="label_bank_detail">开户行</string>
+    <string name="label_province">所属省份</string>
+    <string name="label_city">归属城市</string>
+    <string name="hint_cardnumber">请输入银行卡号</string>
+    <string name="hint_you_cardnumber">请输入您本人银行卡号</string>
+    <string name="hint_new_card_number">请输入要更换的银行卡号</string>
+    <string name="hint_you_obligate_number">请输入银行预留手机号</string>
+    <string name="hint_bank">请选择所属的银行</string>
+    <string name="hint_province">请选择银行归属地省份</string>
+    <string name="hint_city">请选择银行归属地城市</string>
+    <string name="hint_sms">请输入短信验证码</string>
+    <string name="hint_move_sms">请输入动态验证码</string>
+    <string name="hint_move_sms_mianmi">请输入短信动态码</string>
+    <string name="hint_bank_detail">如：招商银行肥西路支行</string>
+</resources>

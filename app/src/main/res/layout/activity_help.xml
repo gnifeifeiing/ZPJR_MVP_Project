@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_bg"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/help_aboutAppBtn"
+        style="@style/productintroduce_button"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:onClick="goNew"
+        android:text="@string/aboutApp"
+        android:visibility="gone"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="10dp"
+        android:background="@color/gray" />
+
+    <Button
+        android:id="@+id/help_productIntroduceBtn"
+        style="@style/productintroduce_button"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:onClick="goRegist"
+        android:text="@string/product_introduce" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="10dp"
+        android:background="@color/gray"
+        />
+
+    <Button
+        android:id="@+id/help_riskControlBtn"
+        style="@style/productintroduce_button"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:onClick="goInvest"
+        android:text="@string/risk_control"
+        android:visibility="gone"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="10dp"
+        android:background="@color/gray"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/help_registerLoginBtn"
+        style="@style/productintroduce_button"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:onClick="goBaozhang"
+        android:text="@string/register_login" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="10dp"
+        android:background="@color/gray" />
+
+    <Button
+        android:id="@+id/help_uploadWithdrawBtn"
+        style="@style/productintroduce_button"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:onClick="goTuijian"
+        android:text="@string/upload_withdraw" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="10dp"
+        android:background="@color/gray"
+        />
+
+    <Button
+        android:id="@+id/help_memberIntegralBtn"
+        style="@style/productintroduce_button"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:onClick="goTuijian"
+        android:visibility="gone"
+        android:text="@string/member_integral" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="10dp"
+        android:background="@color/gray"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/help_investmentFinancingBtn"
+        style="@style/productintroduce_button"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:onClick="goTuijian"
+        android:text="@string/investment_financing"
+        android:visibility="gone"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="10dp"
+        android:background="@color/gray"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/help_terminologyBtn"
+        style="@style/productintroduce_button"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:onClick="goTuijian"
+        android:text="@string/terminology" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="10dp"
+        android:background="@color/gray" />
+
+    <Button
+        android:id="@+id/help_lawSafetyBtn"
+        style="@style/productintroduce_button"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:onClick="goTuijian"
+        android:text="@string/law_safety"
+        android:visibility="gone"/>
+
+</LinearLayout>

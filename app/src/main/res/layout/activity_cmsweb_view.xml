@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <ProgressBar
+        android:id="@+id/myProgressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="5px"
+        android:progressDrawable="@color/skyblue"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/introducetitleTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/orange"
+        android:textSize="20sp"
+        android:visibility="gone" />
+
+    <View
+        android:id="@+id/cutline"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_margin="20dp"
+        android:background="@color/gray"
+        android:visibility="gone" />
+
+    <!-- <ScrollView
+         android:id="@+id/sv_webview_sv"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:background="@color/white"
+         android:scrollbars="none">
+ 
+         <WebView
+             android:id="@+id/web_agree"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:isScrollContainer="false" />
+     </ScrollView>-->
+
+    <WebView
+        android:id="@+id/web_agree"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"/>
+
+</LinearLayout>

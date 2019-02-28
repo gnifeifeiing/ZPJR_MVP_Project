@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="尊敬的中平金融平台用户："
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="       中平金融作为交易服务平台进行项目信息发布，不对任何投资人或任何交易提供担保，无论是明示、默示。中平金融平台提供的 各种信息及资料供客户参考，投资人应依独立判断做出决策。投资人据此进行投资交易的，产生的投资风险由投资人自行承担， 中平金融不承担任何责任。"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="       鉴于网络借贷交易过程中，可能面临的多种风险因素，中平金融提示您在进行网络借贷交易前，请仔细阅读以下重要内容："
+                android:textSize="14sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="14sp"
+                android:text="       债权投资前您应定期进行风险承受能力评估，评估能力应为“稳健型”及以上并阅读本提示书。接受本提示即表示您承诺本人具备 相应的投资知识、产品认知能力、风险控制及风险承受能力。不具备以上条件却又接受本提示的为虚假承诺，应自行承担由此引 发的所有责任和损失。债权投资面临的主要风险为："
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="14sp"
+                android:text="       1.政策风险：因网络借贷是基于当前的国家宏观政策及相关法律法规所设计，借贷期间如国家宏观政策（如财政政策、货币政策、行业政策、地区发展政策）以及市场相关法律法规等发生较大变化，可能会给投资者造成损失风险。"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="14sp"
+                android:text="       2.市场风险：在借贷关系存续期间，因市场波动而导致投资者资产价值变化、遭受损失的风险。主要包括利率风险、汇率风险、股票风险、商品风险。"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="14sp"
+                android:text="       3.信用风险：当借款方未能如期偿还其债务，可能会给投资者带来本金和测算收益逾期或遭受损失的风险。测算收益（是根据投资者持有产品的金额*标明计息公式测算得出）不等于实际收益。当借款方出现短期或者长期丧失还款能力（包括但不限于借款方收入情况、财产状况发生变化，人身出现意外，发生疾病、死亡等情况），或者借款方的还款意愿发生变化时，将有可能出现违约风险。"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="14sp"
+                android:text="       4.流标风险：如自借款信息发布并开始接受投标时起至约定的投标截止日止，借款项目仍未满标，根据相关法规以及政策、约定，该借款标可能存在流标、投资人利息受损失的风险。"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="14sp"
+                android:text="       5.操作风险：因人为错误、技术缺陷、或不利的外部事件所造成的损失的风险。操作风险可分为人员、系统、流程和外部事件所引发的四类风险。"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="14sp"
+                android:text="       客户在做出投资决定、签署各项协议之前应阅读本风险提示书，并认真阅读网站内各项协议以及公布的各项规则的全部内容；了解相关投资项目的基本情况和投资风险后，进行中平金融平台上的网络借贷交易。"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

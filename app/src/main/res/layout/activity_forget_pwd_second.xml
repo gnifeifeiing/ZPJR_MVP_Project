@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/gray_line" />
+
+        <com.zpjr.cunguan.common.views.ClearEditText
+            android:id="@+id/forgetPwdSecond_newPwdClet"
+            style="@style/edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="10dp"
+            android:drawableLeft="@mipmap/password"
+            android:hint="@string/regesiter_user_hintpwd"
+            android:imeOptions="actionNext"
+            android:password="true"
+            android:nextFocusForward="@+id/cet_commitpwd" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="10dp"
+            android:background="@color/gray_line" />
+
+        <com.zpjr.cunguan.common.views.ClearEditText
+            android:id="@+id/forgetPwdSecond_commitPwdClet"
+            style="@style/edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="10dp"
+            android:drawableLeft="@mipmap/password"
+            android:hint="@string/regesiter_user_hintcommitpwd"
+            android:imeOptions="actionDone"
+            android:password="true" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/gray_line" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/forgetPwdSecond_submitBtn"
+        style="@style/orange_button"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:onClick="getMessage"
+        android:text="@string/reset_pwd_finish" />
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/gray_bg">
+
+    <TextView
+        android:id="@+id/smsSubscribe_tipTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="您已订阅我平台的营销短信"/>
+
+    <Button
+        android:id="@+id/smsSubscribe_sureSubscribeBtn"
+        style="@style/margin_style"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_lightred_corner"
+        android:enabled="true"
+        android:text="取消订阅"
+        android:textSize="15sp"
+        android:textColor="@color/white"/>
+</LinearLayout>

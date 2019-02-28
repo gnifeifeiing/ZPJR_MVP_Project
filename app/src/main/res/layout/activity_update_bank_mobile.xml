@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android_custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        style="@style/padding_margin_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/et_rect"
+        android:gravity="center"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/updateBankMobile_oldPhoneEt"
+            style="@style/edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:gravity="center"
+            android:hint="@string/old_bank_phonenumber"
+            android:textColorHint="@color/gray"
+            android:maxLength="11"
+            android:inputType="phone"
+            android:textSize="14sp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/gray" />
+
+        <EditText
+            android:id="@+id/updateBankMobile_newPhoneEt"
+            style="@style/edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:gravity="center"
+            android:hint="@string/new_bank_phonenumber"
+            android:maxLength="11"
+            android:inputType="phone"
+            android:textSize="14sp"
+            android:textColorHint="@color/gray"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/gray" />
+
+        <LinearLayout
+            android:id="@+id/updateBankMobile_dynamicNumberLl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/updateBankMobile_dynamicNumberEt"
+                style="@style/edit_text"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="48dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:hint="@string/hint_sms"
+                android:inputType="numberDecimal"
+                android:maxLength="6"
+                android:paddingLeft="30dp"
+                android:textSize="14sp"
+                android:textColorHint="@color/gray" />
+
+            <TextView
+                android:id="@+id/updateBankMobile_dynamicNumberTv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:text="免费获取"
+                android:textColor="#ef7d00"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/gray_line" />
+
+        <TextView
+            android:id="@+id/updateBankMobile_sendMessageTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:textColor="@color/darkgray"
+            android:textSize="12sp"
+            android:text="@string/sendmessage"
+            android:visibility="gone" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/gray" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/updateBankMobile_commitBtn"
+        style="@style/margin_style"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/btn_lightred_corner"
+        android:enabled="true"
+        android:text="@string/change_my_bankphone"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+</LinearLayout>

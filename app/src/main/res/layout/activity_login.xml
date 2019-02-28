@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_bg"
+    android:orientation="vertical" >
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="#2bb0fa">
+
+            <ImageView
+                android:id="@+id/login_backIv"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:clickable="true"
+                android:scaleType="centerInside"
+                android:src="@mipmap/back" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/login_headerIv"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="48dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:background="@mipmap/login_header_iv_bg"/>
+
+
+        <TextView
+            android:id="@+id/login_titleTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:text="登录中平金融"/>
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <com.zpjr.cunguan.common.views.ClearEditText
+            android:id="@+id/login_nameClet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:layout_marginLeft="10dp"
+            android:background="@null"
+            android:inputType="phone"
+            android:maxLength="11"
+            android:drawableLeft="@mipmap/login_account_bg"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:hint="请输入手机号码"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginTop="10dp"
+            android:background="#959795" />
+
+        <com.zpjr.cunguan.common.views.ClearEditText
+            android:id="@+id/login_pwdClet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@null"
+            android:inputType="textPassword"
+            android:drawableLeft="@mipmap/login_pwd_bg"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:hint="@string/login_password"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/base_gray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            >
+
+            <Button
+                android:id="@+id/login_submitBtn"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/custom_btn_cicle_bg"
+                android:text="@string/login"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+
+                <TextView
+                    android:id="@+id/login_goRegisterTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#2bb2fa"
+                    android:text="立即注册"/>
+                <TextView
+                    android:id="@+id/login_forgetPwdTv"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#2bb2fa"
+                    android:text="忘记密码"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
